@@ -1,0 +1,38 @@
+#info
+g       beginning-of-node
+G       end-of-node
+
+d       scroll-half-screen-down
+u       scroll-half-screen-up
+
+h       global-prev-node
+l       global-next-node
+;       history-node
+^u      up-node
+U       top-node
+
+^g      goto-node
+
+r       xref-item
+H       move-to-prev-xref
+L       move-to-next-xref
+
+\r      select-reference-this-line
+
+^c      abort-key
+
+\mh     get-info-help-node
+
+ZZ      quit
+
+#echo-area
+\mh     echo-area-backward
+\ml     echo-area-forward
+\m0     echo-area-beg-of-line
+\m$     echo-area-end-of-line
+\mw     echo-area-forward-word
+\mx     echo-area-delete
+\mu     echo-area-abort
+^v      echo-area-quoted-insert
+\mX     echo-area-kill-word
+
