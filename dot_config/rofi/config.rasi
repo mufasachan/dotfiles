@@ -1,0 +1,15 @@
+/*****----- GH: Edmondi-Kacaj/rofi-configuration -----*****/
+configuration {
+	modi:                       "combi";
+	combi-modi:                 "window,drun,run,filebrowser,ssh";
+  show-icons:                 true;
+  display-drun:               "";
+  display-run:                "  ";
+  display-filebrowser:        "🗄️ ";
+  display-window:             "🪟 ";
+  display-ssh:                "@ " ;
+	drun-display-format:        "{name}";
+	window-format:              "{w} {t}";
+}
+
+@theme "/home/muffie/.config/rofi/themes/rounded-pink-dark.rasi"

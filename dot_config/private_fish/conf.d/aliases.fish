@@ -1,0 +1,6 @@
+alias excalidraw="podman\ start\ excalidraw\ >\ /dev/null"
+alias ..="cd\ .."
+alias ...="cd\ ../.."
+alias ....="cd\ ../../.."
+alias ni="zi && nvim ."
+# alias info="info --init-file \$HOME/.config/texinfo/infokey"
