@@ -1,1 +1,1 @@
-fish_add_path /home/muffie/.radicle/bin
+fish_add_path -p $HOME/.radicle/bin
