@@ -1,3 +1,4 @@
+!.config/
 {{- if eq .chezmoi.hostname "zeus2" }}
 .config/{hypr,rofi,rofimoji,dunst,nwg-look}
 {{- end }}
