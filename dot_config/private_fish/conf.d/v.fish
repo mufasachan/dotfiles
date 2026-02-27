@@ -1,3 +1,3 @@
 function v -d "Minimal neovim"
-    command nvim -u "$XDG_CONFIG_HOME/nvim/mini.lua"
+    command nvim -u "$XDG_CONFIG_HOME/nvim/mini.lua" $argv
 end
